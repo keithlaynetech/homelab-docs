@@ -1,7 +1,6 @@
 # Keith Layne Home Lab
 
-A multi-node home infrastructure environment designed around enterprise
-networking, virtualization, observability, automation, and security concepts.
+A multi-node home infrastructure environment designed around enterprise networking, virtualization, observability, automation, security, and continuous technical learning.
 
 ## Core Platform
 
@@ -13,10 +12,10 @@ networking, virtualization, observability, automation, and security concepts.
 - 10GbE SFP+ backbone
 - Cat6A structured cabling
 - Ubiquiti UNAS Pro
-- Approximately 40 TB usable storage
+- Approximately 40 TB usable storage after RAID 5
 - Docker-based application environment
 - Home Assistant and Apple HomeKit
-- Prometheus / Grafana / Loki monitoring and observability
+- Prometheus, Grafana, Loki, and supporting monitoring/observability tools
 - n8n automation
 
 ## Design Goals
@@ -35,11 +34,10 @@ networking, virtualization, observability, automation, and security concepts.
 - Kubernetes / K3s
 - AI-assisted network operations
 - Proxmox high availability
+- Backup and disaster-recovery strategy
 
 ## Security
 
-Public documentation is sanitized.
+Public documentation is intentionally sanitized.
 
-Internal IP addresses, ports, credentials, API keys, certificates,
-firewall rules, and sensitive topology details are maintained in private
-repositories.
+Internal IP addresses, ports, credentials, API keys, private certificates, detailed firewall rules, and sensitive topology information are maintained outside the public documentation repository.
